@@ -90,8 +90,6 @@ var ComponentSkill = React.createClass({
 React.render(<ComponentSkill source="https://api.myjson.com/bins/mayov" />, document.querySelector("skills"));
 
 
-
-
 var ComponentAbout = React.createClass({
   getInitialState: function() {
     return {
@@ -252,14 +250,6 @@ var ComponentTimeline = React.createClass({
 });
 React.render(<ComponentTimeline source="https://api.myjson.com/bins/kfffv" avatar="/img/profile-1.jpg" resume="http://onclickmidia.net/resume/Leonel_front_end_dev.pdf"/>, document.querySelector("timeline"));
 //https://api.myjson.com/bins/19yjbr 
-
-
-
-
-
-
-
-
 
             
      
