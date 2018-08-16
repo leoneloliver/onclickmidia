@@ -5,7 +5,6 @@ var ComponentProject = React.createClass({
     }
   },
   componentDidMount: function() {
-    // Is there a React-y way to avoid rebinding `this`? fat arrow?
     var th = this;
     this.serverRequest = 
       axios.get(this.props.source)
@@ -251,7 +250,7 @@ var ComponentTimeline = React.createClass({
     )      
   }
 });
-React.render(<ComponentTimeline source="https://api.myjson.com/bins/kfffv" avatar="http://onclickmidia.net/img/profile-1.jpg" resume="http://onclickmidia.net/resume/Leonel_front_end_dev.pdf"/>, document.querySelector("timeline"));
+React.render(<ComponentTimeline source="https://api.myjson.com/bins/kfffv" avatar="/img/profile-1.jpg" resume="http://onclickmidia.net/resume/Leonel_front_end_dev.pdf"/>, document.querySelector("timeline"));
 //https://api.myjson.com/bins/19yjbr 
 
 
