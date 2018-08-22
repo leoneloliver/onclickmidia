@@ -190,6 +190,13 @@ a {
   margin-bottom: 20px;
 }
 
+p.card-text {
+  min-height: 44px;
+}
+
+.card--info {
+    min-height: 62px;
+}
 
 /* Bounce Key Frames */
 
