@@ -49,7 +49,7 @@ var ComponentProject = React.createClass({
     )      
   }
 });
-React.render(<ComponentProject source="https://api.myjson.com/bins/16xmxc" />, document.querySelector("project-list"));
+React.render(<ComponentProject source="https://api.myjson.com/bins/yu53k" />, document.querySelector("project-list"));
 
 
 var ComponentSkill = React.createClass({
