@@ -241,14 +241,14 @@ var ComponentTimeline = React.createClass({
           })}
           </div>
           <div className="resume">
-            <a href={this.props.resume} className="btn--hubba btn--full--sm btn--resume" target="_blank">Download Resume</a>
+            <a href={this.props.resume} className="btn--hubba btn--full--sm btn--resume" target="_blank">More</a>
           </div>
         </div>
       </section>
     )      
   }
 });
-React.render(<ComponentTimeline source="https://api.myjson.com/bins/10r5o0" avatar="/img/profile-1.jpg" resume="http://onclickmidia.net/resume/Leonel_front_end_dev.pdf"/>, document.querySelector("timeline"));
+React.render(<ComponentTimeline source="https://api.myjson.com/bins/163fqg" avatar="/img/profile-1.jpg" resume="https://www.linkedin.com/in/leonel-oliveira/"/>, document.querySelector("timeline"));
 //https://api.myjson.com/bins/19yjbr 
 
             
