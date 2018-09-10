@@ -43,7 +43,7 @@ a {
   /* IE10+ */
   background: linear-gradient(to bottom, #18181a 55%, #303033 100%);
   /* W3C */
-  background: url(https://cdn2.editmysite.com/images/editor/theme-background/stock/Working.jpg);
+  background: url(../img/ml.jpg);
   background-size: cover;
   background-position: 50% -320px;
   background-repeat: no-repeat;
@@ -128,7 +128,9 @@ a {
 }
 
 .col-wrapper {
-  background: url("https://i2.wp.com/trendintech.com/wp-content/uploads/2017/08/AAEAAQAAAAAAAAWmAAAAJDZkZTI5YTMxLWM2ZTAtNDgyOC05NjMzLTZlZmM3NThlMTQwZQ.jpg?fit=770%2C513") no-repeat center;
+  /*background: url("https://i2.wp.com/trendintech.com/wp-content/uploads/2017/08/AAEAAQAAAAAAAAWmAAAAJDZkZTI5YTMxLWM2ZTAtNDgyOC05NjMzLTZlZmM3NThlMTQwZQ.jpg?fit=770%2C513") no-repeat center;*/
+ 
+  background: url(../img/ml.jpg);
   background-size: cover;
   width: 100%;
   background-color: #f1f1f1;
